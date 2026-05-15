@@ -64,15 +64,11 @@ public class Categoria implements Identificable {
 
     @Override
     public String toString() {
-        System.out.println("| Código: " + codigo + " | Nombre: " + nombre + " | Descripción: " + descripcion + " |");
-//        System.out.println("|----------------------------------------|");
+//        System.out.println("| Código: " + this.codigo + "\n| nombre: " + this.nombre + "\n| Descripción: " + this.descripcion + "\n|----------------------------------------|");
+        return"| Código: " + this.codigo + 
+            "\n| nombre: " + this.nombre + 
+            "\n| Descripción: " + this.descripcion + 
+            "\n|-----------------------------------------------------------|";
 
-
- //       return "Categoría => " +
-  //              "código=" + codigo +
-   //             ", nombre='" + nombre + '\'' +
-    //            ", descripción='" + descripcion + '\'' +
-     //           '}';
-     return "";
     }
 }
